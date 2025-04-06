@@ -57,7 +57,8 @@ LANGSMITH_TRACING=******
 3. [结构化输出的配置与使用](./2-QARobotWithMemory/3-JSON_parser.ipynb)
 
 ### 3. 工具类的定义与集成
-
+1. [@tool 工具注解的介绍与定义](./3-RobotWithTools/1-introduction.ipynb)
+2. [LLM 如何调取工具并返回结果？](./3-RobotWithTools/2-tools_calling.ipynb)
 
 
 ## To be accomplished...
