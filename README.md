@@ -35,11 +35,29 @@ $ touch .env
 $ vim .env
 # PRESS i
 # ----- INSERT API KEY HERE -----
+OPENAI_API_KEY=sk-******
 # PRESS ESC -> :wq -> PRESS ENTER
+```
+
+后面如果需要用到 LangSmith，可以继续配置：
+```text
+LANGSMITH_TRACING=true
+LANGSMITH_TRACING=******
 ```
 
 ## 📚 学习笔记大纲
 
-### 1. 简单的 QA 机器人 Demo
-1. invoke、stream 输出
-2. Messages 类的封装使用
+### 1. 简单的 QA 机器人
+1. [invoke、stream 输出](1-SimpleQARobot/1-simple_demo.ipynb)
+2. [Messages 类的封装使用](1-SimpleQARobot/2-messages.ipynb)
+
+### 2. 有记忆的 QA 机器人
+1. [配置前后文记忆 thread_id](./2-QARobotWithMemory/1-memory_demo.ipynb)
+2. [PromptTemplate 的定义与使用](./2-QARobotWithMemory/2-templates.ipynb)
+3. [结构化输出的配置与使用](./2-QARobotWithMemory/3-JSON_parser.ipynb)
+
+### 3. 工具类的定义与集成
+
+
+
+## To be accomplished...
