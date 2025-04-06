@@ -1,4 +1,21 @@
-# 📖 Nethan 的 LangChain 学习笔记
+# 📖 Nethan's LangChain 学习笔记 2025.04
+
+## 📚 学习笔记大纲
+
+### 1. 简单的 QA 机器人
+1. [invoke、stream 输出](1-SimpleQARobot/1-simple_demo.ipynb)
+2. [Messages 类的封装使用](1-SimpleQARobot/2-messages.ipynb)
+
+### 2. 有记忆的 QA 机器人
+1. [配置前后文记忆 thread_id](./2-QARobotWithMemory/1-memory_demo.ipynb)
+2. [PromptTemplate 的定义与使用](./2-QARobotWithMemory/2-templates.ipynb)
+3. [结构化输出的配置与使用](./2-QARobotWithMemory/3-JSON_parser.ipynb)
+
+### 3. 工具类的定义与集成
+1. [@tool 工具注解的介绍与定义](./3-RobotWithTools/1-introduction.ipynb)
+2. [LLM 如何调取工具并返回结果？](./3-RobotWithTools/2-tools_calling.ipynb)
+
+## To be accomplished...
 
 ## 什么是 LangChain？
 LangChain 是一个用于构建基于 LLM 应用的 开发框架。它的核心目标是：
@@ -45,20 +62,7 @@ LANGSMITH_TRACING=true
 LANGSMITH_TRACING=******
 ```
 
-## 📚 学习笔记大纲
-
-### 1. 简单的 QA 机器人
-1. [invoke、stream 输出](1-SimpleQARobot/1-simple_demo.ipynb)
-2. [Messages 类的封装使用](1-SimpleQARobot/2-messages.ipynb)
-
-### 2. 有记忆的 QA 机器人
-1. [配置前后文记忆 thread_id](./2-QARobotWithMemory/1-memory_demo.ipynb)
-2. [PromptTemplate 的定义与使用](./2-QARobotWithMemory/2-templates.ipynb)
-3. [结构化输出的配置与使用](./2-QARobotWithMemory/3-JSON_parser.ipynb)
-
-### 3. 工具类的定义与集成
-1. [@tool 工具注解的介绍与定义](./3-RobotWithTools/1-introduction.ipynb)
-2. [LLM 如何调取工具并返回结果？](./3-RobotWithTools/2-tools_calling.ipynb)
-
-
-## To be accomplished...
+在做网络爬虫和识别的时候，我们会用到比如 SerpAPI 这样的 Google API：
+```text
+SERPAPI_API_KEY=******
+```
