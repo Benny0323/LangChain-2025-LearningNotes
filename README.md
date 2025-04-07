@@ -14,6 +14,10 @@
 ### 3. 工具类的定义与集成
 1. [@tool 工具注解的介绍与定义](./3-RobotWithTools/1-introduction.ipynb)
 2. [LLM 如何调取工具并返回结果？](./3-RobotWithTools/2-tools_calling.ipynb)
+3. [中间件的获取](./3-RobotWithTools/3-tools_and_artifacts.ipynb)
+
+### 4. 文件上传与多模态
+
 
 ## To be accomplished...
 
