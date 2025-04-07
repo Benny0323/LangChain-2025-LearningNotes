@@ -14,10 +14,12 @@
 ### 3. 工具类的定义与集成
 1. [@tool 工具注解的介绍与定义](./3-RobotWithTools/1-introduction.ipynb)
 2. [LLM 如何调取工具并返回结果？](./3-RobotWithTools/2-tools_calling.ipynb)
-3. [中间件的获取](./3-RobotWithTools/3-tools_and_artifacts.ipynb)
+3. [中间件 Artifacts 的获取](./3-RobotWithTools/3-tools_and_artifacts.ipynb)
 
 ### 4. 文件上传与多模态
-
+1. [图片和文本之间的多模态输入](./4-Multimodality/1-introduction.ipynb)
+2. [向量嵌入以及语义相关性](./4-Multimodality/2-embedding.ipynb)
+3. [向量存储和简单的 RAG](./4-Multimodality/3-vectorstore.ipynb)
 
 ## To be accomplished...
 
