@@ -20,6 +20,11 @@
 1. [图片和文本之间的多模态输入](./4-Multimodality/1-introduction.ipynb)
 2. [向量嵌入以及语义相关性](./4-Multimodality/2-embedding.ipynb)
 3. [向量存储和简单的 RAG](./4-Multimodality/3-vectorstore.ipynb)
+4. [文档 Loader 和 Text Splitter](./4-Multimodality/4-text_splitters.ipynb)
+
+### 5. AI Agent 的构建
+1. [LangChain 链的表达](./5-Agent/1-LCEL_usage.ipynb)
+
 
 ## To be accomplished...
 
