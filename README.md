@@ -22,8 +22,13 @@
 3. [向量存储和简单的 RAG](./4-Multimodality/3-vectorstore.ipynb)
 4. [文档 Loader 和 Text Splitter](./4-Multimodality/4-text_splitters.ipynb)
 
-### 5. AI Agent 的构建
-1. [LangChain 链的表达](./5-Agent/1-LCEL_usage.ipynb)
+### 5. 检索增强生成
+1. [关键词检索器](./5-RAG/1-retrievers.ipynb)
+2. [从数据源检索结构化/非结构化数据](./5-RAG/2-retrieval_system.ipynb)
+3. [RAG 的介绍与构建](./5-RAG/3-RAG_implementation.ipynb)
+
+### 6. AI Agent
+1. [LangChain 链的表达](6-Agent/1-LCEL_usage.ipynb)
 
 
 ## To be accomplished...
